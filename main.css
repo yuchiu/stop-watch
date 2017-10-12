@@ -1,0 +1,40 @@
+body {
+    font-family: roboto;
+    margin-top: 200px;
+    text-align: center;
+}
+
+#timer {
+    font-size: 100px;
+}
+
+button {
+    margin: 5px 20px 0px 20px;
+    background-color: #4c81db;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: roboto;
+    font-size: 30px;
+    text-decoration: none;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #68b8e3;
+}
+
+button:focus {
+    outline: 0;
+}
+
+#reset {
+    background-color: #ba4343;
+}
+
+#reset:hover {
+    background-color: #ff7f80;
+}
